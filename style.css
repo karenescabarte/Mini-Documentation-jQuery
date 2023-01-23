@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgb(2, 36, 79);
+	font-family: cursive;
+	font-weight: bold;
+}
+main {
+	background-color: #fff;
+	max-width: 970px;
+	margin: 0 auto;
+	position: relative;
+}
+/* Navigation list */
+main nav {
+	position: fixed;
+	width: 250px;
+	display: inline-block;
+}
+main nav ul {
+	padding: 30px 80px 20px 50px;
+	margin: 0 auto;
+	border-right: 5px solid #000;
+}
+main nav ul li {
+	list-style: none;
+	margin: 25px 0;
+}
+main nav ul li a {
+	color: #085394;
+}
+/* Main-content section */
+main section#main-content {
+	width: 710px;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 250px;
+}
+main section#main-content section.function-wrapper {
+	padding: 20px 0;
+	border-bottom: 5px solid #000;
+	margin: 0 80px 20px;
+}
+main section#main-content h1 {
+	margin-bottom: 50px;
+	font-size: 3rem;
+}
+main section#main-content h2 {
+	margin-bottom: 30px;
+}
+main section#main-content p {
+	font-weight: normal;
+	display: inline-block;
+	width: 350px;
+	text-align: left;
+}
+main section#main-content p.showMe,
+p.toggleMe {
+	display: none;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px auto;
+	background-color: aqua;
+}
+main section#main-content p.toggleMe {
+	display: none;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px auto;
+	background-color: aqua;
+}
+main section#main-content p.slideDownMe {
+	display: none;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px auto;
+	background-color: aqua;
+}
+main section#main-content p.fadeInMe {
+	display: none;
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px auto;
+	background-color: aqua;
+}
+.addBgColor {
+	background-color: aqua;
+}
+main section#main-content a {
+	display: inline-block;
+	width: 140px;
+	vertical-align: top;
+	text-decoration: none;
+	padding: 10px;
+	margin: 0 20px;
+	border: 7px solid #000;
+	overflow: hidden;
+}
+
+input[type="text"] {
+	padding: 5px 10px;
+}
+
+p.text-field {
+	margin-top: 30px;
+}
